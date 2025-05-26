@@ -503,12 +503,11 @@ nav ul li a:hover {
 
 /* Contact Section */
 .contact {
-    background-color: #333;
+    background-color: white;
     color: white;
     padding: 0;
     position: relative;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .contact-container {
@@ -521,10 +520,11 @@ nav ul li a:hover {
     padding: 50px 60px;
     display: flex;
     flex-direction: column;
-    border-radius: 0 0 0 0;
+    border-radius: 0 60px 60px 0;
     justify-content: center;
     align-items: flex-start;
     background-color: #333;
+    box-shadow: -5px 5px 15px rgba(0,0,0,0.1);
     min-height: 400px;
     overflow:hidden;
 }
@@ -545,9 +545,8 @@ nav ul li a:hover {
 .contact-right {
     flex: 1;
     background-color: white;
-    border-radius: 0 0 60px 60px;
+    border-radius: 0 0 0 0;
     padding: 50px;
-    box-shadow: -5px 5px 15px rgba(0,0,0,0.1);
     position: relative;
 }
 
